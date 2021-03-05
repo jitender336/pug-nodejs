@@ -1,0 +1,47 @@
+block variables
+doctype html
+html
+  head
+    meta(charset="utf-8")
+    link(rel="shortcut icon", href="/favicon.ico")
+    meta(name="viewport", content="width=device-width, initial-scale=1, shrink-to-fit=no")
+    meta(name="theme-color", content="#000000")
+    title #{title} | Online Portel
+    link(rel="stylesheet" href="/style.css")
+    script(src='/call_to.js')
+  body
+   block content
+      header.header-top 
+      div.remark 
+        div.top
+          table 
+            tr
+              th
+                span(style='padding-top:0px;') err
+              th  
+                input#question(type="text", value="").textA
+           div.bottom#bottom  
+            table#tab(style='width:90%')
+              tr
+                th  
+                  a(href="#") Previous
+                th
+                  label Very comfortable
+                  input(type="checkbox", name="wtrte" value="uncomfortable" style="margin-left:2px")
+                th 
+                  label Uncomfortable
+                  input(type="checkbox", name="" value="uncomfortable")
+                th 
+                  label Neutral
+                  input(type="checkbox", name="" value="uncomfortable")
+                th 
+                  label Comfortable
+                  input(type="checkbox", name="" value="uncomfortable")   
+                th
+                  label Very Comfortable
+                  input(type="checkbox", name="" value="uncomfortable")
+                th  
+                  a(href="#" onclick="viewPost()") Go Next
+      footer.footer-down Created By Contriverz
+    
+      block layout-content

@@ -1,0 +1,21 @@
+
+body {
+    background: #c2c2c2;
+  }
+  .remark{
+    border: 3px solid #928e8e;
+    height: 75vh;
+    padding: 30px;
+  }
+  .header-top{
+    height: 7vh; 
+  }
+  .footer-down{
+    height: 5vh; 
+   
+  }
+  .textA{
+      height: 40vh;
+      width: 85vw;
+      padding-top: 2px;
+  }
